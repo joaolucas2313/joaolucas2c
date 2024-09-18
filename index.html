@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>a casa do vizinhor</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>um certo dia jogando bola meu amigo chutou a bola na casa do vizinho</p>
+            <button class="btn-proximo" data-proximo="1">chamar o vizinho</button>
+            <button class="btn-proximo" data-proximo="2">pular a casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>entao fomos chamar o vizinho?</p>
+            <button class="btn-proximo" data-proximo="3">chamamos o vizinho e pedimos a bola</button>
+            <button class="btn-proximo" data-proximo="4">ou pulamos o muro</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>assim que chegamos no topo do muro avistamos uma casa de cachorro será que devemos pular o muro?</p>
+            <button class="btn-proximo" data-proximo="5">sim devemos</button>
+            <button class="btn-proximo" data-proximo="6">nao</button>
+            <div class="passo" id="passo-1">
+                <p>pulamos o muro e o cachorro acabou nos entregando para o dono!oque fazer?</p>
+                <button class="btn-proximo" data-proximo="3">pular de volta para a rua</button>
+                <button class="btn-proximo" data-proximo="4">ou arriscamos procurar a bola</button>
+            </div>
+            <div class="passo" id="passo-2">
+                <p>acabamos sendo pego pelo vizinho</p>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
